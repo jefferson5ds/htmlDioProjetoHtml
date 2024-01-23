@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 >Curso Dio</h1>
+    <hr>
+     <h3>trilha Html</h3>
+     <p>Nesse primeiro modulo vamos aprender a estrutura basica do html, como ultilizar as tags básicas e seus atríbutos</p>
+    <h3>indice</h3>
+    <ul>
+        <li id="inicio">
+            <a href="#historiadaweb"> Historia da web </a>
+        </li>
+        <li>
+             <a href="#estruturabasicadohtml">Estrutura Básica do html </a>
+           
+             
+        </li>
+        <li>
+           <a href="#links">O que são links ?</a> 
+           
+        </li>
+
+    </ul>
+         
+        <h4 id="historiadaweb">HISTORIA DA WEB </h4>
+        <small ><a href="#inicio">(voltar)</a></small>
+
+        <P>A história da internet teve início com a Arpanet, uma rede de troca de informações que havia sido desenvolvida para conectar instalações de pesquisas e militares com o Pentágono, nos Estados Unidos, na década de 1960. O crescimento dessa rede permitiu que seu uso se estendesse para fins privados e comerciais.
+           <br>
+            "A internet chegou ao Brasil somente no final da década de 1980.
+         <br>
+A internet é atualmente o maior meio de comunicação utilizado planeta, com mais de 5 bilhões de usuários. Por ela, é possível enviar mensagens instantaneamente, movimentar dinheiro em contas bancárias, comprar mercadorias, acessar redes sociais, fazer pesquisas etc.
+   <br>
+A internet chegou ao Brasil, em 1988, por meio de uma conexão entre um computador da Universidade Federal do Rio de Janeiro (UFRJ) e a rede da Universidade de Maryland, nos Estados Unidos, tornando-se pública e comercial entre 1994 e 1995. <br> Atualmente, de acordo com a Pnad, cerca de 90% das residências brasileiras têm acesso à internet."
+  <br>
+
+        </P>
+
+        <h5 id="estruturabasicadohtml">ESTRUTURA BASICA DO HTML</h5>
+        <small><a href="#inicio">(voltar)</a></small>
+        <P>
+            documento HTML sempre inicia com o que chamamos de estrutura básica. Esta estrutura é quase que imutável. Sempre será dessa forma e você sempre, sempre começará seu HTML começando por esse código. Geralmente os editores como o Sublime Text já tem atalhos para iniciar os documentos HTMLs com essa estrutura, logo, você não precisa se preocupar em decorá-la, mas é bom que faça. Veja abaixo como ela se inicia:
+        </P>
+        <strong>  Doctype - Definindo o documento </strong>
+        <p>
+            Uma coisa importante: SEMPRE deve existir o doctype, que é este código <!DOCTYPE html>.
+            <br>
+O doctype não é uma tag HTML, mas uma instrução para o navegador e outros programas que podem ler seu site, que o código encontrado ali é um código HTML. Assim eles sabem o que fazer para mostrar seu site da melhor forma possível. Lembre-se: o doctype é OBRIGATÓRIO e deve ser sempre a PRIMEIRA LINHA do seu documento.
+<br>  
+        </p>
+        <strong>HEAD</strong>
+        <p>
+            Contém informações que não são transpostas visivelmente para o usuário/leitor do documento. São dados implícitos, de uso e controle do documento: vinculação com outros arquivos, aplicação de lógica de programação de scripts e metadados. Na prática, todo o conteúdo do cabeçalho fica delimitado entre a abertura e fechamento tag head.
+        </p>
+        <strong>BODY</strong>
+        <p>
+            Trata-se do documento em si, ou seja, a informação legível para o usuário/leitor do documento. É todo e qualquer texto que se deseja apresentar, assim como toda e qualquer forma de mídia de saída (imagens, sons, miniaplicativos embutidos, conteúdo multimídia, etc). Além disso, toda a apresentação de entrada de dados (formulários) também se aplica neste seção do documento. Na prática, o corpo do documento é delimitado pelo par de tags <body> e </body>.
+
+Este é o preceito básico que deve estar muito bem claro para você: onde as marcações se aplicam, e quais são os resultados deste modelo. Por exemplo: se vocês deseja informar conteúdo textual para saída legível ao usuário do seu sistema web, esta marcação deverá obrigatoriamente estar no bloco do corpo da página. Ainda: para definir qual o tipo de codificação da página (uma meta informação do documento), esta deve obrigatoriamente estar marcada no cabeçalho do mesmo documento.
+
+Dentro do elemento BODY sua estrutura de página terá os elementos semânticos da construção da sua página, onde serão declarados e identificados cabeçalhos, rodapé, conteúdo principal, etc.
+        </p>
+        
+        <h6 id="links">O que são os links HTML</h6>
+        <small><a href="#inicio">(voltar)</a></small>
+        <br>
+        <p>
+            Desde a origem da internet, o que torna a web o que ela é hoje é justamente a possibilidade de vincular um documento a qualquer outro documento ou recurso. Essa função é chamada de hiperlink ou link. Mas afinal de contas, o que são os links HTML?
+
+O link HTML, nada mais é que uma função do HTML que permite inserir os hiperlinks em diversos elementos, como textos e imagens. Um link precisa sempre apontar para uma URL (endereço) existente em seu site. Caso contrário, você poderá obter uma mensagem de erro 404.
+            <br>
+
+            Como fazer um link em HTML
+No HTML, os links são definidos pela tag <a>. Dentro dessa tag incluímos o atributo href (Hypertext Reference), que é o endereço de destino do link. Dentro do conteúdo da tag <a>, incluímos então o texto ou elemento que servirá como redirecionador, ou seja, que ao ser clicado, executará a função de redirecionar para o endereço dentro do atributo href.
+  <br>
+Dessa forma, a sintaxe básica do HTML link é:
+  <br>
+<a href="url">Exemplo</a>
+
+A tag <a> pode ser utilizada dentro ou fora dos demais elementos (tags) do HTML, como no exemplo abaixo onde criamos um parágrafo, e dentro dele, apenas a palavra HomeHost contém um hiperlink para a página inicial da HomeHost:
+        </p>
+
+        <strong>Referências</strong>
+        <ul>
+            <li><a href="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html"> GETTING STARTED  </a></li>  
+            <br>
+            <li><a href="https://www.homehost.com.br/blog/tutoriais/links-html/">Home host</a> </li>
+        </ul>
+</body>
+</html>
